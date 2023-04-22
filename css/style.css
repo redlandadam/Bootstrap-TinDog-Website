@@ -1,0 +1,34 @@
+.gradient {
+    background: linear-gradient(133deg, #fd5c6c, #48a5de);
+    background-size: 400% 400%;
+
+    -webkit-animation: header-gradient 13s ease infinite;
+    -moz-animation: header-gradient 13s ease infinite;
+    animation: header-gradient 13s ease infinite;
+}
+
+@-webkit-keyframes header-gradient {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+@-moz-keyframes header-gradient {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+@keyframes header-gradient {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+
+#title h1 {
+  color: #000;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
